@@ -1,0 +1,67 @@
+## Notes- 3.27.19 ##
+
+-next week only prep work is a survey.
+-week after will be a LOT of work (OBJECTS!)
+
+April 10th (Late work has to be submitted and graded).
+
+
+##Multidimensional Arrays##
+they are arrays of arrays
+most common use is makeing grids
+two boxes means two-dimensional. 3 boxes is 3-dimensional
+
+int[][] arr= new int [3][4] ---> this format is better if you don't know what you want
+									int the array. (pulling in data)
+			={{1,2,3,4}, {1,2,3,4}, {1,2,3,4} {1,2,3,4}} --->doesn't HAVE to have same amount of integers								
+
+
+i = iterator
+arr [i][0]
+
+if you want to go through more 
+
+outer loop= i
+inner loop= k
+
+outer loop gets processed first
+each bracket is either a row or column
+so whatever VARIABLE is in the left bracket will determine which way you "iterate" first. 
+	if I is in the outer loop, it's INNER loop (variable k) will 
+	First cookie from every box is to put the COLUMN first. 
+	First box, one cookie at a time is to put the ROW first.
+	
+	
+OBJECT- every object can be put into another object.
+
+#Methods#
+when deciding on what goes into a method:
+
+-Repeated code means you need a method
+-copy/paste means you prolly need a method
+A method should DO something.
+methods should have one purpose. ONE Task.
+making lots of small methods has benefits cuz you're able to change things more easily.
+
+##class exercise##
+
+instantiate scanner IN the method 
+OR
+pass it through as a PARAMETER of the method itself
+	ie. public static int getChoice(Scanner s){
+	int choice;
+	do {
+            System.out.println("How do you want to sign up?");
+            System.out.println("1 - Phone Number");
+            System.out.println("2 - Email");
+            choice = s.nextInt();
+            s.skip("\n");
+        } while (choice < 1 || choice > 2);
+
+		---->since all we're doing in this method is GETTING their CHOICE, 
+			we can initialize the variable IN THE METHOD, rather than passing it
+			through as a parameter (which would look like "int choice")
+			
+			
+##TOURNARY Expression#
+" and your " + (choice == 1 ? "phone number" : "email address") + " is " + phoneEmail + ".");	

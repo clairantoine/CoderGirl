@@ -1,0 +1,41 @@
+#
+
+cast type with a dash " - "
+
+#IntelliJ#
+start a new project
+create project from template with "Command Line App"
+Project Name = whatever you wanna call it
+Location - default location
+convention = "package" website of the org you work for in reverse
+	ex. org.launchcode
+Finish - generates project
+
+Settings- 
+	you can change themes (dark/light)
+	menus and toolbars
+	change font in "EDITOR", can change color scheme.
+	
+#Autogenerates a "main method" with the intro 
+#		public static void main
+
+#_Cheats
+out.print("Hello") 
+if anything is RED type "alt" and hit "enter"- gives options to fix problem
+allows you to skip the import: 	System.out.println(); 
+
+if you want to edit the file name- change class and rename in PROJECT MANAGER
+	Right click on file name>Refactor> rename - that will change it in the "main" as well
+
+	
+#_Submit Assignments Via GitHub_
+choose your file
+go to location
+upload it
+CAN ALSO DRAG AND DROP file to INTELLIJ Screen.
+
+Then commit to GitHub.
+To Submit it, come to > Repository> click on file you want to turn in>
+	copy the link in the URL and paste into the part of the assinment
+
+

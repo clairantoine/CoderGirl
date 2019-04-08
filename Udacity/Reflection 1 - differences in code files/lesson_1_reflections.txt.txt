@@ -1,0 +1,10 @@
+## Reflection 1- File Compare ##
+not sure how to access my "CoderGirl" folder from the COMMAND LINE.
+	will ask or Google this
+
+PC- FC  vs. MAC- Diff 
+	both do a file compare, they just look a bit different since they're in diff. OS
+	
+Lines with a "+" are ones that were ADDED to the new file.
+Conversely, lines with a "-" were taken out of the new version of the file.
+	

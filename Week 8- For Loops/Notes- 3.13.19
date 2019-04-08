@@ -1,0 +1,72 @@
+#Notes- 3.13.19#
+
+forloop- known number of times to run a loop
+
+parts of the for loop:
+declaration; condition; statement modifying variable.
+
+Nested example:
+
+for(int x= 0; x< 10; x++)
+{
+for(int y=0; y<8; y++)
+}
+dothing
+
+^this example will run 80 times. because top loop causes the 8loop
+& "Do thing" to run TEN TIMES.
+
+EXAMPLE 2:
+for(int i=0; i< 10; i ++)
+	{
+	method1();
+	for(int y=0; y<5; y++0
+		{method2();
+		}
+	}
+	
+MARIO EXERCISE:
+
+import java.util.Scanner;
+
+public static void main(String[] args)
+{
+System.out.print ("How many levels?");
+int height = keyboard.nextInt();
+keyboard.skip("\n");
+System.out.print ("")
+int counter= 2;
+
+	for(height= 2; <height ; counter++)
+	{System.out.print("#");
+		for( ; ; )
+		{
+		
+		}
+	
+	}
+
+}
+
+
+## GIT ##
+fork- take a copy of someone else's remote repository
+clone- putting a copy on your computer
+commit-
+add- prepares a change to be added
+push- pushes changes to the repository//
+branch(aka feature branch)- makes a copy of your work so
+		you (or others)can work on it without changing the master
+pull- pulls the updated version of the remote repository
+merge- puts it into the master and checks for conflicts
+
+:wq = this is how you get out "Vi", the text editor built into git
+	[you installed notepad++, so you don't use Vi]
+	
+	
+
+
+
+
+	
+	

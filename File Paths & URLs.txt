@@ -1,0 +1,20 @@
+#File Paths
+
+
+#JAVA
+C:\Java\jdk1.8.0_192\bin
+
+#IntelliJ
+C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2018.3.3
+
+#CoderGirl BOOK- Runestone
+https://runestone.launchcode.org/runestone/static/helloworld/index.html
+
+#UDEMY Free Online Course
+https://www.udemy.com/beginner-pro-java/learn/v4/announcements
+
+#ARTICLE- Paul Ford, What is Code?
+https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/#grabbag 
+
+#GitHub- Upload Homework
+https://github.com/clairantoine/CoderGirlWinter2019 

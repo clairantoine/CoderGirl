@@ -1,0 +1,35 @@
+
+import 
+
+public static void main (String[] args)
+{
+	System.out.print ("Welcome to the Multiplication Tables");
+	System.out.print("How large would you like to see them?(enter a number smaller than 20)");
+	
+	int counter = -1
+	int answer
+	int userNumber = Keyboard.nextInt();
+	Keyboard.skip("\n");
+	System.out.print(userNumber);
+	
+	do
+	{
+	System.out.println(counter " * " userNumber " = " answer)
+	answer = (counter+1)(userNumber);
+	}
+	while(counter++ < userNumber)
+	
+		public static int multTables(int a, int userNumber)
+		{
+	
+		}
+		return
+}
+
+DRAFT___
+
+for (int answer = 0; counter < userNumber; counter++)
+            {   int answer = counter * userNumber;
+                System.out.println("" +counter+ " * " +userNumber+ " = " +answer+"");
+            }
+            while (counter++ < userNumber);

@@ -1,0 +1,63 @@
+# Notes 2.27.19- Git and While Loops #
+
+
+-review test driven development
+-finish the Git lessons
+
+Mentors: Jeremy & Heidi
+
+Jeremy - works at Asyncrony Labs
+
+
+#While Loops#
+-you can put .toLowerCase() at the END of "keyboard.nextLine()"
+	
+	
+#Thank You Mail Merge#
+//**put break AT THE BEGINNING, try not to "nest" it//
+
+Scanner keyboard = new Scanner(System.in);
+Sout("---Thank You Letters---");
+
+while(name.equals "quit".toLowerCase)
+{
+sout("Enter a name:");
+String name = keyboard.nextLine();
+if(name.toLowerCase().equals("quit"))
+{
+else
+}
+	sout("Donation amount:");
+	double donation= keyboard.nextDouble();	<---use for currency (preferred over floats)
+	keyboard.skip("\n");
+
+	printletter(name, donation);			<---METHOD to print the letter
+}
+
+public static void printLetter (String name, double)
+
+}
+
+
+## Git ##
+-version control
+-allows for easier collaboration
+-creates a saved copy remotely
+
+-you will be skipping some lessons in part 3 for Git. Wait for mike to tell you which 
+
+??What is the difference between git and gitbash??
+
+Attendance: DaringDesigner
+
+
+
+
+
+
+
+
+
+
+
+

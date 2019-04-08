@@ -1,0 +1,202 @@
+#Notes- 2.20.19 Methods Continued#
+
+method signature- name of method and the parameters
+
+scoping- process of ensuring a variable is available outside of the curly braces.
+
+public static int doThing(int x)
+	intz  <---- initialize the variable so it's available outside of the curly braces
+	{
+	int z= x+y;
+	}
+	
+	return z;
+	
+	
+	Exercise:
+	
+	public static String formatNumberAsTwoDigits (int number)
+	{
+	if(number < 10) 
+	{
+		return "0" + number;
+		}
+		else
+		{
+			return String.valueof(number);
+		}
+	}
+	
+	//slashFormat
+	
+	public static String slashFormat(int year, int month, int day)
+	{
+		String formattedMonth = formatNumberAsTwoDigits(month);
+		String formattedDay = formatNumberAsTwoDigits(day);
+		return formattedMonth + "/" + "formattedDay "/" + year ;
+	}
+	
+	
+	//dashFormat
+	public static String dashFormat(int year, int month, int day)
+	{
+	return year + "-" + formatNumberAsTwoDigits(month) + "-" +
+		formatNumberAsTwoDigits (day);
+	}
+
+//Name Format
+public static String nameFormat(int year, int month, int day)
+{
+	String textMonth;
+	if(month == 1)
+	{
+	textMonth = "January";
+	}
+	
+	
+}
+
+#OR#
+
+public static String nameFormat(int year, int month, int day)
+{
+	String textMonth;
+	switch (month)
+	{
+		case 1:    <-----[insert possibility you want to check it by]
+				textMonth = "January";
+				break;		<---tells compiler the statement is done. we're moving on
+		case 2:
+				textMonth = "February";
+				break;
+		case 3:
+				textMonth = "March";
+				break;
+		case 10:
+				textMonth = "October";
+				break;
+		case 12:
+				textMonth = "December";
+				break;
+				default:
+					textMonth = "You messed up!";
+					
+	}		
+	return textMonth + "" + day + ", " + year;			
+}
+
+
+# Switched Statement#
+
+#Many Methods exercise Solution Review#
+
+minimum- you did this right in the source code.
+maximum- return Math.max(a,b); <- this is a MATH LIBRARY.
+
+public static boolean isEvenNumber(int x)
+{
+return x % 2 == 0;
+}
+
+or
+
+return !isOddNumber(x);
+
+char- 
+	public static boolean isVowel(char letter)
+	{ 
+	if (letter == 'a' || letter == 'e' || letter == 'i'
+		return true;
+	
+	
+#OR- use a switch statement#
+
+public static boolean isConsonant(char letter)
+{
+		switch (Character.toLowerCase(letter))
+		{
+		case  'a':
+			return false;
+		case 'e':
+			return false;
+		}
+
+#
+
+public static boolean isVowel(char letter)
+{
+			String vowels = "AEIOUaeiou";
+			in index = vowels.indexOf(letter);
+			if(index < 0)
+			{
+				return false;
+			}
+			else
+			{
+				return true;
+			}
+			
+}
+
+INDEXOF - can take a char and see if it can find it in the string.
+it can find the char's location in the string. we start with position
+ZERO, 1, 2, 3, 4.
+if it's LESS than zero, it didn't find it in the index.
+if it doesn't find the char, it will return NEGATIVE ONE (-1).
+
+
+##Test Driven Development##
+"test first development"
+been a thing for about 20 yrs. came out of "Extreme Programming" from the 90s
+
+-Create tests of methods before writing the method (unit tests).
+-Write code to make the test pass!
+-only write code AFTER you've created a test
+-Red, Green, Refactor.
+				once your code PASSES, THEN you go back and edit it 
+				to make it more elegant, simplified, look better- REFACTOR
+
+Why do it??
+	-helps create better, more maintainable code
+	-easier for other developers to take over your code
+	-can be used as a sort of documentation.
+	NEVER DELETE YOUR TESTS!
+	
+#intelliJ in the console on the left#
+
+.idea is intelliJ settings for IntelliJ
+		you can HIDE this folder cuz you'll never need it.
+src - this is all the code you've written
+out- compile code. everytime you run/compile the code,
+	it creates class file. this is closer to what the computer reads.
+		
+*Submit your assignments of .JAVA and NOT .class . From the SRC folder*
+
+##Now##
+-install GIT
+	with PC= use the GIT installer and use GITBASH. 
+	dont try to use a shell.
+-Start prep for next class
+-attendance code: GoogleGuru
+
+
+		
+
+
+
+
+
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
